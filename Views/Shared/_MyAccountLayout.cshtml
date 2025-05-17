@@ -1,0 +1,31 @@
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Account</title>
+    <!-- Bootstrap CSS -->
+    @* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> *@
+    <!-- DataTables CSS -->
+    @* <link rel="stylesheet" href="https://cdn.datatables.net/1.11.1/css/dataTables.bootstrap4.min.css"> *@
+    @* <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.bootstrap4.min.css"> *@
+    <!-- FontAwesome -->
+    @* <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"> *@
+    <!-- Your custom CSS -->
+    @* <link rel="stylesheet" href="~/MyAccount/style.css"> *@
+    <!-- ...các thẻ meta và link khác nếu có... -->
+</head>
+
+<body>
+    <main role="main"></main>
+    @RenderBody()
+    </main>
+    <script src="~/MyAccount/script.js"></script> <!-- Thêm dòng này để nhúng file JS -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>

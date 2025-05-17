@@ -1,0 +1,1045 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TechnologyCommerce.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TechnologyCommerce.1tigm4nbzd.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\MyAccount\\script.js",
+      "PackagePath": "staticwebassets\\MyAccount\\script.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\MyAccount\\style.css",
+      "PackagePath": "staticwebassets\\MyAccount\\style.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\client\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\css\\sb-admin-2.css",
+      "PackagePath": "staticwebassets\\client\\css\\sb-admin-2.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\css\\sb-admin-2.min.css",
+      "PackagePath": "staticwebassets\\client\\css\\sb-admin-2.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\css\\site.css",
+      "PackagePath": "staticwebassets\\client\\css\\site.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\css\\style.css",
+      "PackagePath": "staticwebassets\\client\\css\\style.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\css\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\client\\css\\tiny-slider.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\bag.svg",
+      "PackagePath": "staticwebassets\\client\\images\\bag.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\bowl-2.png",
+      "PackagePath": "staticwebassets\\client\\images\\bowl-2.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\bowl-3.png",
+      "PackagePath": "staticwebassets\\client\\images\\bowl-3.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\cart.svg",
+      "PackagePath": "staticwebassets\\client\\images\\cart.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\couch.png",
+      "PackagePath": "staticwebassets\\client\\images\\couch.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\cross.svg",
+      "PackagePath": "staticwebassets\\client\\images\\cross.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\dots-green.svg",
+      "PackagePath": "staticwebassets\\client\\images\\dots-green.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\dots-light.svg",
+      "PackagePath": "staticwebassets\\client\\images\\dots-light.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\dots-yellow.svg",
+      "PackagePath": "staticwebassets\\client\\images\\dots-yellow.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\envelope-outline.svg",
+      "PackagePath": "staticwebassets\\client\\images\\envelope-outline.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\client\\images\\favicon.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\img-grid-1.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\img-grid-1.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\img-grid-2.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\img-grid-2.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\img-grid-3.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\img-grid-3.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\img-grid-3_a866f9e3-ff53-404d-8668-84058b83587a.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\img-grid-3_a866f9e3-ff53-404d-8668-84058b83587a.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\person-1.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\person-1.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\person-1.png",
+      "PackagePath": "staticwebassets\\client\\images\\person-1.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\person_1.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\person_2.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\person_3.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\person_4.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\post-1.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\post-1.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\post-2.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\post-2.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\post-3.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\post-3.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\product-1.png",
+      "PackagePath": "staticwebassets\\client\\images\\product-1.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\product-1_146b82fe-c06d-452a-827e-78d04a7dd75c.png",
+      "PackagePath": "staticwebassets\\client\\images\\product-1_146b82fe-c06d-452a-827e-78d04a7dd75c.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\product-1_46b82d6a-dba3-4b9c-afff-7c8019695d2a.png",
+      "PackagePath": "staticwebassets\\client\\images\\product-1_46b82d6a-dba3-4b9c-afff-7c8019695d2a.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\product-2.png",
+      "PackagePath": "staticwebassets\\client\\images\\product-2.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\product-3.png",
+      "PackagePath": "staticwebassets\\client\\images\\product-3.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\product-3_17e80ee5-61b7-42bd-9b57-3c43ca23885f.png",
+      "PackagePath": "staticwebassets\\client\\images\\product-3_17e80ee5-61b7-42bd-9b57-3c43ca23885f.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\return.svg",
+      "PackagePath": "staticwebassets\\client\\images\\return.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\sofa.png",
+      "PackagePath": "staticwebassets\\client\\images\\sofa.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\sofa_6b5a6c00-1fa0-447d-9179-f424e1e7b6d9.png",
+      "PackagePath": "staticwebassets\\client\\images\\sofa_6b5a6c00-1fa0-447d-9179-f424e1e7b6d9.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\sofa_6b5a6c00-1fa0-447d-9179-f424e1e7b6d9_643e4d34-2d75-4176-b5e9-abc9629ba808.png",
+      "PackagePath": "staticwebassets\\client\\images\\sofa_6b5a6c00-1fa0-447d-9179-f424e1e7b6d9_643e4d34-2d75-4176-b5e9-abc9629ba808.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\support.svg",
+      "PackagePath": "staticwebassets\\client\\images\\support.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\truck.svg",
+      "PackagePath": "staticwebassets\\client\\images\\truck.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\user.svg",
+      "PackagePath": "staticwebassets\\client\\images\\user.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\images\\why-choose-us-img.jpg",
+      "PackagePath": "staticwebassets\\client\\images\\why-choose-us-img.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\img\\undraw_posting_photo.svg",
+      "PackagePath": "staticwebassets\\client\\img\\undraw_posting_photo.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\img\\undraw_profile.svg",
+      "PackagePath": "staticwebassets\\client\\img\\undraw_profile.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\img\\undraw_profile_1.svg",
+      "PackagePath": "staticwebassets\\client\\img\\undraw_profile_1.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\img\\undraw_profile_2.svg",
+      "PackagePath": "staticwebassets\\client\\img\\undraw_profile_2.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\img\\undraw_profile_3.svg",
+      "PackagePath": "staticwebassets\\client\\img\\undraw_profile_3.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\client\\img\\undraw_rocket.svg",
+      "PackagePath": "staticwebassets\\client\\img\\undraw_rocket.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\css\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\css\\nouislider.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\2in1.jpg",
+      "PackagePath": "staticwebassets\\img\\2in1.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\2in1_0a9c773a-aec2-49fc-a8f0-fcf063bb5b19.jpg",
+      "PackagePath": "staticwebassets\\img\\2in1_0a9c773a-aec2-49fc-a8f0-fcf063bb5b19.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\2in1_0a9c773a-aec2-49fc-a8f0-fcf063bb5b19_31ab1453-0a02-4e2c-b98e-afc60874ee5b.jpg",
+      "PackagePath": "staticwebassets\\img\\2in1_0a9c773a-aec2-49fc-a8f0-fcf063bb5b19_31ab1453-0a02-4e2c-b98e-afc60874ee5b.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\2in1_12dc5e09-19f5-47ff-aaae-3d92780d4797.jpg",
+      "PackagePath": "staticwebassets\\img\\2in1_12dc5e09-19f5-47ff-aaae-3d92780d4797.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\2in1_3207ea39-a333-4543-8962-dd1ad2aad9c6.jpg",
+      "PackagePath": "staticwebassets\\img\\2in1_3207ea39-a333-4543-8962-dd1ad2aad9c6.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\2in1_74ca3d98-4916-4f2e-b363-b4794959b28e.jpg",
+      "PackagePath": "staticwebassets\\img\\2in1_74ca3d98-4916-4f2e-b363-b4794959b28e.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\2in1_b6a44d6b-0fce-400f-9545-b65a62be7d46.jpg",
+      "PackagePath": "staticwebassets\\img\\2in1_b6a44d6b-0fce-400f-9545-b65a62be7d46.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_18577e4c-5700-4db5-981e-70ad843e8149.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_18577e4c-5700-4db5-981e-70ad843e8149.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_112856b2-876d-406e-909c-713bc305012b.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_112856b2-876d-406e-909c-713bc305012b.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_1c41a6c4-1af8-4dda-9a8f-111953de1f37.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_1c41a6c4-1af8-4dda-9a8f-111953de1f37.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_227b8f5b-7a32-441e-af44-7f72f67eaa85.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_227b8f5b-7a32-441e-af44-7f72f67eaa85.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_31fe2c19-bb94-4993-bbce-b0acf43adb33.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_31fe2c19-bb94-4993-bbce-b0acf43adb33.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_3f09fcf4-6eea-4d65-a02d-f96b6f02e72c.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_3f09fcf4-6eea-4d65-a02d-f96b6f02e72c.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_44cbc185-f3fa-4205-b1ba-0bcb1f3e85d0.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_44cbc185-f3fa-4205-b1ba-0bcb1f3e85d0.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_4ac30c3a-151f-4101-b6c3-79665c94b324.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_4ac30c3a-151f-4101-b6c3-79665c94b324.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_bb89d1a1-25d0-491e-b96a-91a6280b5347.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_bb89d1a1-25d0-491e-b96a-91a6280b5347.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_e53ba79b-9276-4e30-94d4-0cce20e076c4.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_e53ba79b-9276-4e30-94d4-0cce20e076c4.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_faa3e3ea-1023-436f-8a96-167572861645.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_353f93e9-f505-4d79-b515-7b2c4f29cc74_faa3e3ea-1023-436f-8a96-167572861645.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_599a52ed-8b27-4caf-857f-5d644efb823f.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_599a52ed-8b27-4caf-857f-5d644efb823f.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_6121c782-540a-4ce8-9c29-02e65729d361.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_6121c782-540a-4ce8-9c29-02e65729d361.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_6eb08010-a515-49bd-b524-e100f3b4a6e0.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_6eb08010-a515-49bd-b524-e100f3b4a6e0.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_b7c9dd1e-7e83-4157-a3e9-97e957160a51.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_b7c9dd1e-7e83-4157-a3e9-97e957160a51.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_b7c9dd1e-7e83-4157-a3e9-97e957160a51_91682d5a-4eea-47b5-adab-41983c8a1d97.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_b7c9dd1e-7e83-4157-a3e9-97e957160a51_91682d5a-4eea-47b5-adab-41983c8a1d97.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_b7c9dd1e-7e83-4157-a3e9-97e957160a51_a34d35e7-090e-49a9-b3b6-2dd09c10f789.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_b7c9dd1e-7e83-4157-a3e9-97e957160a51_a34d35e7-090e-49a9-b3b6-2dd09c10f789.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_b7c9dd1e-7e83-4157-a3e9-97e957160a51_d0b18c91-5049-414e-8680-41288b40855c.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_b7c9dd1e-7e83-4157-a3e9-97e957160a51_d0b18c91-5049-414e-8680-41288b40855c.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_e5903d75-4b7b-4dd1-8d92-6f7b6852de02.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_e5903d75-4b7b-4dd1-8d92-6f7b6852de02.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_ebeea59c-60c0-4000-be54-738d4cf58db1.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f045a27-c4e7-47a2-bd0a-bd878cec546a_ebeea59c-60c0-4000-be54-738d4cf58db1.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_3f5f00a4-5a98-4504-95fd-34e824cb7cbb.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_3f5f00a4-5a98-4504-95fd-34e824cb7cbb.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_800eec9b-74ab-48b4-8f0b-8eced5c56484.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_800eec9b-74ab-48b4-8f0b-8eced5c56484.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_87bf9640-e83c-4b86-b0b7-5acad5fda4dd.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_87bf9640-e83c-4b86-b0b7-5acad5fda4dd.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_96b1a9bd-ba03-4473-934a-62c193ba0ff5.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_96b1a9bd-ba03-4473-934a-62c193ba0ff5.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_b5e20879-019a-4e74-83f0-255512d6a29b.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_b5e20879-019a-4e74-83f0-255512d6a29b.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_c3c9597c-3350-4ae8-9361-dacae8c7abab.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_c3c9597c-3350-4ae8-9361-dacae8c7abab.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_e598cb53-8ccd-4c0f-bef4-432240c5f0b6.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_e598cb53-8ccd-4c0f-bef4-432240c5f0b6.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_f4758378-35e9-442e-b0f4-a1ddc2acf054.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_f4758378-35e9-442e-b0f4-a1ddc2acf054.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\accessories_f4af7c96-97ab-43b3-98f5-efb5fccd870d.jpg",
+      "PackagePath": "staticwebassets\\img\\accessories_f4af7c96-97ab-43b3-98f5-efb5fccd870d.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\business.jpg",
+      "PackagePath": "staticwebassets\\img\\business.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case.jpg",
+      "PackagePath": "staticwebassets\\img\\case.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_035ff106-35bd-4b0c-b2c7-b91debbad588.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_035ff106-35bd-4b0c-b2c7-b91debbad588.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_0a976da3-45f0-4c21-838a-f5b64d3ed8ea.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_0a976da3-45f0-4c21-838a-f5b64d3ed8ea.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_1af6f725-16b6-4be7-a2a1-1d0546c0df09.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_1af6f725-16b6-4be7-a2a1-1d0546c0df09.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_1bba71af-d743-4891-a068-7bbfd6586888.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_1bba71af-d743-4891-a068-7bbfd6586888.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_4d61388b-d15e-45db-a018-53a862d9870b.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_4d61388b-d15e-45db-a018-53a862d9870b.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_4d72dfaa-6455-4219-80ca-96e524147753.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_4d72dfaa-6455-4219-80ca-96e524147753.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_8512c5af-11d7-41d0-8629-3a6e580abd7f.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_8512c5af-11d7-41d0-8629-3a6e580abd7f.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_8f8f93b5-58c9-4ee8-b8f7-08bb4df4b614.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_8f8f93b5-58c9-4ee8-b8f7-08bb4df4b614.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_97c33bd4-c0d5-471b-a9fa-c63f953776a3.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_97c33bd4-c0d5-471b-a9fa-c63f953776a3.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_af19febd-12f1-440f-ad86-dafbda3946e6.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_af19febd-12f1-440f-ad86-dafbda3946e6.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_b210c629-9059-474f-bab8-63591d5e0560.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_b210c629-9059-474f-bab8-63591d5e0560.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_d0ed34aa-d9a9-4e68-bc65-80ab0fb9651f.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_d0ed34aa-d9a9-4e68-bc65-80ab0fb9651f.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_f29aaa49-59d0-49a0-808c-0632077e3f2f.jpg",
+      "PackagePath": "staticwebassets\\img\\case_19d0535d-4e3b-45e2-9bdf-8b9b0d883eac_f29aaa49-59d0-49a0-808c-0632077e3f2f.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\case_6883825f-a91a-4635-a87b-59ca5416de0d.jpg",
+      "PackagePath": "staticwebassets\\img\\case_6883825f-a91a-4635-a87b-59ca5416de0d.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\components.jpg",
+      "PackagePath": "staticwebassets\\img\\components.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\desktop.jpg",
+      "PackagePath": "staticwebassets\\img\\desktop.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\desktopa1.jpg",
+      "PackagePath": "staticwebassets\\img\\desktopa1.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\expertbookb9.jpg",
+      "PackagePath": "staticwebassets\\img\\expertbookb9.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\eyes.jpg",
+      "PackagePath": "staticwebassets\\img\\eyes.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\g14.jpg",
+      "PackagePath": "staticwebassets\\img\\g14.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\gaming.jpg",
+      "PackagePath": "staticwebassets\\img\\gaming.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\gladius2.jpg",
+      "PackagePath": "staticwebassets\\img\\gladius2.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\gpu.jpg",
+      "PackagePath": "staticwebassets\\img\\gpu.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\gt501.jpg",
+      "PackagePath": "staticwebassets\\img\\gt501.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\headphone.jpg",
+      "PackagePath": "staticwebassets\\img\\headphone.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\headphonerog.jpg",
+      "PackagePath": "staticwebassets\\img\\headphonerog.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\hotdeal.png",
+      "PackagePath": "staticwebassets\\img\\hotdeal.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\keyboard.jpg",
+      "PackagePath": "staticwebassets\\img\\keyboard.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\keyboardmk1.jpg",
+      "PackagePath": "staticwebassets\\img\\keyboardmk1.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\monitor.jpg",
+      "PackagePath": "staticwebassets\\img\\monitor.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\monitorb1.jpg",
+      "PackagePath": "staticwebassets\\img\\monitorb1.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\mouse.jpg",
+      "PackagePath": "staticwebassets\\img\\mouse.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\mousem1.jpg",
+      "PackagePath": "staticwebassets\\img\\mousem1.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\mousepad.jpg",
+      "PackagePath": "staticwebassets\\img\\mousepad.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\office.jpg",
+      "PackagePath": "staticwebassets\\img\\office.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\product01.png",
+      "PackagePath": "staticwebassets\\img\\product01.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\product02.png",
+      "PackagePath": "staticwebassets\\img\\product02.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\product03.png",
+      "PackagePath": "staticwebassets\\img\\product03.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\product04.png",
+      "PackagePath": "staticwebassets\\img\\product04.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\product05.png",
+      "PackagePath": "staticwebassets\\img\\product05.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\product06.png",
+      "PackagePath": "staticwebassets\\img\\product06.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\product07.png",
+      "PackagePath": "staticwebassets\\img\\product07.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\product08.png",
+      "PackagePath": "staticwebassets\\img\\product08.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\product09.png",
+      "PackagePath": "staticwebassets\\img\\product09.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\psu.jpg",
+      "PackagePath": "staticwebassets\\img\\psu.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\psu850.jpg",
+      "PackagePath": "staticwebassets\\img\\psu850.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\ram.jpg",
+      "PackagePath": "staticwebassets\\img\\ram.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\ram16gb.jpg",
+      "PackagePath": "staticwebassets\\img\\ram16gb.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\router.jpg",
+      "PackagePath": "staticwebassets\\img\\router.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\routerax88u.jpg",
+      "PackagePath": "staticwebassets\\img\\routerax88u.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\rtx4080.jpg",
+      "PackagePath": "staticwebassets\\img\\rtx4080.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\s15.jpg",
+      "PackagePath": "staticwebassets\\img\\s15.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\sheath.jpg",
+      "PackagePath": "staticwebassets\\img\\sheath.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\shop01.png",
+      "PackagePath": "staticwebassets\\img\\shop01.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\shop02.png",
+      "PackagePath": "staticwebassets\\img\\shop02.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\shop03.png",
+      "PackagePath": "staticwebassets\\img\\shop03.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\ssd.jpg",
+      "PackagePath": "staticwebassets\\img\\ssd.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\ssd512.jpg",
+      "PackagePath": "staticwebassets\\img\\ssd512.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\thor850w.jpg",
+      "PackagePath": "staticwebassets\\img\\thor850w.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\ultrabook.jpg",
+      "PackagePath": "staticwebassets\\img\\ultrabook.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\vivobookflip.jpg",
+      "PackagePath": "staticwebassets\\img\\vivobookflip.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\webcam.jpg",
+      "PackagePath": "staticwebassets\\img\\webcam.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\img\\zenbook14.jpg",
+      "PackagePath": "staticwebassets\\img\\zenbook14.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\js\\jquery.zoom.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.zoom.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\js\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\nouislider.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\login\\assets\\css\\login.css",
+      "PackagePath": "staticwebassets\\login\\assets\\css\\login.css"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\login\\assets\\css\\login.css.map",
+      "PackagePath": "staticwebassets\\login\\assets\\css\\login.css.map"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\login\\assets\\images\\login.jpg",
+      "PackagePath": "staticwebassets\\login\\assets\\images\\login.jpg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\login\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\login\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\login\\assets\\scss\\login.scss",
+      "PackagePath": "staticwebassets\\login\\assets\\scss\\login.scss"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\screenshot\\Checkout.png",
+      "PackagePath": "staticwebassets\\screenshot\\Checkout.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\screenshot\\Index.png",
+      "PackagePath": "staticwebassets\\screenshot\\Index.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\screenshot\\Product.png",
+      "PackagePath": "staticwebassets\\screenshot\\Product.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\screenshot\\Regular.png",
+      "PackagePath": "staticwebassets\\screenshot\\Regular.png"
+    },
+    {
+      "Id": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\wwwroot\\screenshot\\Store.png",
+      "PackagePath": "staticwebassets\\screenshot\\Store.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.TechnologyCommerce.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.TechnologyCommerce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.TechnologyCommerce.props",
+      "PackagePath": "build\\TechnologyCommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.TechnologyCommerce.props",
+      "PackagePath": "buildMultiTargeting\\TechnologyCommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.TechnologyCommerce.props",
+      "PackagePath": "buildTransitive\\TechnologyCommerce.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
