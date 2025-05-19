@@ -1,0 +1,41 @@
+@model TechnologyCommerce.ViewModels.CartSummaryViewModel
+
+<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+    <i class="fa fa-shopping-cart"></i>
+    <span>Your Cart</span>
+    <div class="qty">@Model.TotalQuantity</div>
+</a>
+<div class="cart-dropdown">
+    <div class="cart-list">
+        @foreach (var item in Model.CartItems)
+        {
+            <div class="product-widget">
+                <div class="product-img">
+                    <img src="~/img/@item.Product.ImageUrl" alt="@item.Product.Name" />
+                </div>
+                <div class="product-body">
+                    <h3 class="product-name"><a href="#">@item.Product.Name</a></h3>
+                    <h4 class="product-price">
+                        <span class="qty">@item.Quantity x</span>
+                        @item.Product.Price.ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))
+                    </h4>
+                </div>
+                <form asp-controller="Cart" asp-action="RemoveItem" method="post" style="display:inline;">
+                    <input type="hidden" name="productId" value="@item.ProductId" />
+                    <button type="submit" class="delete"><i class="fa fa-close"></i></button>
+                </form>
+            </div>
+        }
+        @if (!Model.CartItems.Any())
+        {
+            <div class="text-center text-muted">Your cart is empty.</div>
+        }
+    </div>
+    <div class="cart-summary">
+        <small>@Model.TotalQuantity Item(s) selected</small>
+        <h5>SUBTOTAL: @Model.TotalPrice.ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))</h5>
+    </div>
+    <div class="cart-btns">
+        <a asp-controller="Checkout" asp-action="Index">Checkout <i class="fa fa-arrow-circle-right"></i></a>
+    </div>
+</div>

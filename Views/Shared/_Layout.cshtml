@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<TechnologyCommerce.Models.ApplicationUser> SignInManager
+@inject UserManager<TechnologyCommerce.Models.ApplicationUser> UserManager
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -31,7 +34,43 @@
                 </ul>
                 <ul class="header-links pull-right">
                     <li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
-                    <li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
+                    <ul class="header-links pull-right"></ul>
+                    <li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-user-o"></i>
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                var user = await UserManager.GetUserAsync(User);
+                                @user.FullName
+                            }
+                            else
+                            {
+                                @:My Account
+                            }
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                <li>
+                                    <form asp-controller="Home" asp-action="Logout" method="post" style="margin:0;">
+                                        <button type="submit" class="dropdown-item"
+                                            style="width:100%;text-align:left;background:none;border:none;padding:6px 16px;">Logout</button>
+                                    </form>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <a class="dropdown-item" asp-controller="Home" asp-action="Login"
+                                        style="width:100%;text-align:left;padding:6px 16px;">Login</a>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                </ul>
+                @* <li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li> *@
                 </ul>
             </div>
         </div>
@@ -73,56 +112,12 @@
                     <div class="col-md-3 clearfix">
                         <div class="header-ctn">
                             <!-- Wishlist -->
-                            <div>
-                                <a href="#">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span>Your Wishlist</span>
-                                    <div class="qty">2</div>
-                                </a>
-                            </div>
+
                             <!-- /Wishlist -->
 
                             <!-- Cart -->
                             <div class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-                                    <i class="fa fa-shopping-cart"></i>
-                                    <span>Your Cart</span>
-                                    <div class="qty">3</div>
-                                </a>
-                                <div class="cart-dropdown">
-                                    <div class="cart-list">
-                                        <div class="product-widget">
-                                            <div class="product-img">
-                                                <img src="~/img/product01.png" alt="">
-                                            </div>
-                                            <div class="product-body">
-                                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                <h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
-                                            </div>
-                                            <button class="delete"><i class="fa fa-close"></i></button>
-                                        </div>
-
-                                        <div class="product-widget">
-                                            <div class="product-img">
-                                                <img src="~/img/product02.png" alt="">
-                                            </div>
-                                            <div class="product-body">
-                                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                <h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
-                                            </div>
-                                            <button class="delete"><i class="fa fa-close"></i></button>
-                                        </div>
-                                    </div>
-                                    <div class="cart-summary">
-                                        <small>3 Item(s) selected</small>
-                                        <h5>SUBTOTAL: $2940.00</h5>
-                                    </div>
-                                    <div class="cart-btns">
-                                        <a href="/home/Cart">View Cart</a>
-                                        <a asp-controller="Checkout" asp-action="Index">Checkout <i
-                                                class="fa fa-arrow-circle-right"></i></a>
-                                    </div>
-                                </div>
+                                @await Component.InvokeAsync("CartSummary");
                             </div>
                             <!-- /Cart -->
 
@@ -218,8 +213,7 @@
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Orders and Returns</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -229,10 +223,8 @@
                             <h3 class="footer-title">Service</h3>
                             <ul class="footer-links">
                                 <li><a href="#">My Account</a></li>
-                                <li><a href="#">View Cart</a></li>
-                                <li><a href="#">Wishlist</a></li>
                                 <li><a href="#">Track My Order</a></li>
-                                <li><a href="#">Help</a></li>
+
                             </ul>
                         </div>
                     </div>

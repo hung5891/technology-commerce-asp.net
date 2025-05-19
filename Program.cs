@@ -20,16 +20,22 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 })
 .AddEntityFrameworkStores<AppDbContext>() // Thêm DbContext vào đây
 .AddDefaultTokenProviders();
-
+// Thêm cấu hình này để đổi đường dẫn đăng nhập
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Home/Index";
+    options.AccessDeniedPath = "/Home/AccessDenied";
+});
 // XÓA TẤT CẢ CÁC DÒNG AddAuthentication() THỪA
 // KHÔNG CẦN GỌI AddAuthentication() RIÊNG VÌ AddIdentity() ĐÃ TỰ THÊM
 
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddSession();
 var app = builder.Build();
 
 // ... Phần còn lại giữ nguyên
 
+// Configure the HTTP request pipeline.
 
 if (!app.Environment.IsDevelopment())
 {
@@ -39,6 +45,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
@@ -60,5 +67,6 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     await SeedData.Initialize(services);
 }
+
 
 app.Run();

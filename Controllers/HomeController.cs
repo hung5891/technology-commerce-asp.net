@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using TechnologyCommerce.Dbcontext;
 using TechnologyCommerce.Models;
 using TechnologyCommerce.ViewModel;
+using TechnologyCommerce.Extensions;
 using Microsoft.EntityFrameworkCore;
 namespace TechnologyCommerce.Controllers;
 
@@ -46,6 +47,45 @@ public class HomeController : Controller
 
             if (result.Succeeded)
             {
+                // --- Chuyển cart từ Session sang DB ---
+                var sessionCart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart");
+                if (sessionCart != null && sessionCart.Any())
+                {
+                    var user = await _userManager.FindByEmailAsync(model.Email);
+                    var userId = user.Id;
+
+                    // Lấy cart DB của user, nếu chưa có thì tạo mới
+                    var dbCart = await _context.Carts
+                        .Include(c => c.CartItems)
+                        .FirstOrDefaultAsync(c => c.UserId == userId);
+
+                    if (dbCart == null)
+                    {
+                        dbCart = new Cart
+                        {
+                            UserId = userId,
+                            CreatedDate = DateTime.Now,
+                            CartItems = new List<CartItem>()
+                        };
+                        _context.Carts.Add(dbCart);
+                    }
+
+                    // Merge từng CartItem từ session vào DB
+                    foreach (var item in sessionCart)
+                    {
+                        var dbItem = dbCart.CartItems.FirstOrDefault(ci => ci.ProductId == item.ProductId);
+                        if (dbItem != null)
+                            dbItem.Quantity += item.Quantity;
+                        else
+                            dbCart.CartItems.Add(new CartItem { ProductId = item.ProductId, Quantity = item.Quantity });
+                    }
+                    dbCart.TotalPrice = dbCart.CartItems.Sum(ci => ci.Quantity * (_context.Products.Find(ci.ProductId)?.Price ?? 0));
+                    await _context.SaveChangesAsync();
+                    // Xóa cart trong Session
+                    HttpContext.Session.Remove("Cart");
+                }
+                // --- Kết thúc chuyển cart ---
+
                 return RedirectToAction("Index", "Home");
             }
 
@@ -123,10 +163,44 @@ public class HomeController : Controller
         return RedirectToAction("Index", "Home");
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return View();
+        var products = _context.Products.ToList();
+        // Lấy UserId của người dùng đang đăng nhập
+        var userId = _userManager.GetUserId(User);
+
+        // if (userId == null)
+        // {
+        //     return RedirectToAction("Login", "Home"); // Chuyển hướng đến trang đăng nhập nếu chưa đăng nhập
+        // }
+
+        if (userId != null)
+        { // Lấy giỏ hàng từ cơ sở dữ liệu, bao gồm các mục trong giỏ hàng và thông tin sản phẩm
+            var cart = await _context.Carts
+                .Include(c => c.CartItems) // Bao gồm các mục trong giỏ hàng
+                .ThenInclude(ci => ci.Product) // Bao gồm thông tin sản phẩm trong mỗi mục
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cart == null)
+            {
+                // Nếu giỏ hàng chưa tồn tại, tạo mới
+                cart = new Cart
+                {
+                    UserId = userId,
+                    TotalPrice = 0,
+                    CreatedDate = DateTime.Now,
+                    CartItems = new List<CartItem>()
+                };
+
+                _context.Carts.Add(cart);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+
+        return View(products);
     }
+
 
     public IActionResult Privacy()
     {
@@ -164,7 +238,7 @@ public class HomeController : Controller
 
         if (userId == null)
         {
-            return RedirectToAction("Login", "Account"); // Chuyển hướng đến trang đăng nhập nếu chưa đăng nhập
+            return RedirectToAction("Login", "Home"); // Chuyển hướng đến trang đăng nhập nếu chưa đăng nhập
         }
 
         // Lấy giỏ hàng từ cơ sở dữ liệu, bao gồm các mục trong giỏ hàng và thông tin sản phẩm
@@ -197,7 +271,7 @@ public class HomeController : Controller
 
         if (userId == null)
         {
-            return RedirectToAction("Login", "Account"); // Chuyển hướng đến trang đăng nhập nếu chưa đăng nhập
+            return RedirectToAction("Login", "Home"); // Chuyển hướng đến trang đăng nhập nếu chưa đăng nhập
         }
 
         // Lấy giỏ hàng của người dùng
@@ -260,7 +334,7 @@ public class HomeController : Controller
 
         if (userId == null)
         {
-            return RedirectToAction("Login", "Account"); // Chuyển hướng đến trang đăng nhập nếu chưa đăng nhập
+            return RedirectToAction("Login", "Home"); // Chuyển hướng đến trang đăng nhập nếu chưa đăng nhập
         }
 
         // Lấy giỏ hàng của người dùng

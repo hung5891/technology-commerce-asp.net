@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\views\\myaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|solutionrelative:views\\myaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|solutionrelative:views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\migrations\\20250423173130_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|solutionrelative:migrations\\20250423173130_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,6 +53,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\modelview\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|solutionrelative:modelview\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Migrations\\20250423173130_Cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250423173130_Cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,6 +72,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Views\\MyAccount\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\MyAccount\\Index.cshtml",
+              "ToolTip": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Views\\MyAccount\\Index.cshtml",
+              "RelativeToolTip": "Views\\MyAccount\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T09:16:18.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Views\\CheckOut\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\CheckOut\\Index.cshtml",
               "ToolTip": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Views\\CheckOut\\Index.cshtml",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CheckOutController.cs",
               "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Controllers\\CheckOutController.cs",
               "RelativeDocumentMoniker": "Controllers\\CheckOutController.cs",
@@ -87,12 +104,11 @@
               "RelativeToolTip": "Controllers\\CheckOutController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T03:21:59.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T03:21:59.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Views\\Store\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Store\\Index.cshtml",
@@ -100,12 +116,11 @@
               "RelativeToolTip": "Views\\Store\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T03:20:41.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T03:20:41.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StoreController.cs",
               "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Controllers\\StoreController.cs",
               "RelativeDocumentMoniker": "Controllers\\StoreController.cs",
@@ -113,12 +128,11 @@
               "RelativeToolTip": "Controllers\\StoreController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T03:19:36.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T03:19:36.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "20250423173130_Cart.cs",
               "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Migrations\\20250423173130_Cart.cs",
               "RelativeDocumentMoniker": "Migrations\\20250423173130_Cart.cs",
@@ -126,8 +140,7 @@
               "RelativeToolTip": "Migrations\\20250423173130_Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T17:31:30.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T17:31:30.251Z"
             },
             {
               "$type": "Document",
@@ -179,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AdminController.cs",
               "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
@@ -187,8 +200,7 @@
               "RelativeToolTip": "Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T12:02:11.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T12:02:11.232Z"
             },
             {
               "$type": "Document",

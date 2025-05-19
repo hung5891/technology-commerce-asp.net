@@ -510,3 +510,4 @@ E:\MyLearning\AdvanceProgram\TechnologyCommerce\TechnologyCommerce\obj\Debug\net
 E:\MyLearning\AdvanceProgram\TechnologyCommerce\TechnologyCommerce\obj\Debug\net9.0\compressed\5k9gbi9fd3-2p6aa4krgg.gz
 E:\MyLearning\AdvanceProgram\TechnologyCommerce\TechnologyCommerce\obj\Debug\net9.0\compressed\vl5lzoyli9-eyu5ma9edh.gz
 E:\MyLearning\AdvanceProgram\TechnologyCommerce\TechnologyCommerce\obj\Debug\net9.0\compressed\k46dkdpdz1-cks60l2x63.gz
+E:\MyLearning\AdvanceProgram\TechnologyCommerce\TechnologyCommerce\obj\Debug\net9.0\TechnologyCommerce.sourcelink.json
