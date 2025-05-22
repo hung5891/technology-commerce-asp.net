@@ -302,6 +302,8 @@
                                             <th>ID</th>
                                             <th>Name</th>
                                             <th>Price</th>
+                                                    <th>Category</th> <!-- Thêm cột Category -->
+
                                             <th>Image</th>
                                             <th>Action</th>
                                         </tr>
@@ -316,8 +318,9 @@
                                                         value="@product.Id" /></td>
                                                 <td>@product.Id</td>
                                                 <td>@product.Name</td>
-                                                <td>@product.Price.ToString("C0",
-                                                                                                    System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))</td>
+                                                <td>@product.Price.ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))</td>
+                                              <td>@product.CategoryName</td> <!-- Hiển thị tên loại sản phẩm -->
+
                                             <!-- Hiển thị giá với định dạng tiền tệ -->
                                             <td>
                                                 <img src="~/img/@product.ImageUrl"
@@ -345,17 +348,15 @@
 </div>
 	  <!-- Hiển thị phân trang -->
         <div class="d-flex justify-content-center" style= "text-align: center">
-			@Html.PagedListPager(
-				Model,
-				page => Url.Action("Index", new { page }),
-				new PagedListRenderOptions
-				{
-					 UlElementClasses = new[] { "pagination" },
-                     LiElementClasses = new[] { "page-item" },
+			@Html.PagedListPager(Model,page => Url.Action("ProductManagement", "Admin", new { page }),
+                new PagedListRenderOptions
+                {
+                    UlElementClasses = new[] { "pagination" },
+                    LiElementClasses = new[] { "page-item" },
                     PageClasses = new[] { "page-link" },
-                     ActiveLiElementClass = "active",
-				}
-			)
+                    ActiveLiElementClass = "active",
+                }
+            )
         </div>
 	<!-- /container -->
 </div>

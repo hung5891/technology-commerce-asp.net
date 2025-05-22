@@ -1,71 +1,68 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TechnologyCommerce.Dbcontext;
 using TechnologyCommerce.Models;
 
-namespace TechnologyCommerce.Controllers;
-
-[Route("product")]
 public class ProductController : Controller
 {
-    private readonly ILogger<ProductController> _logger;
     private readonly AppDbContext _context;
 
-    public ProductController(ILogger<ProductController> logger ,AppDbContext context)
+    public ProductController(AppDbContext context)
     {
-        _logger = logger;
-        _context = context; // Thêm DbContext
+        _context = context;
     }
 
-    [HttpGet("")]
-    public IActionResult Index()
+    // GET: Product/Details/5
+    public async Task<IActionResult> Details(int? id)
     {
-        // Lấy danh sách sản phẩm từ database
-        var products = _context.Products.ToList();
-        // Truyền dữ liệu sang view
-        return View(products);
-    }
-
-    [HttpGet("create")]
-    public IActionResult Create()
-    {
-        return View();
-    }
-
-    [HttpPost("create")]
-    public IActionResult Create(Product product)
-    {
-        if (ModelState.IsValid)
+        if (id == null)
         {
-            // Logic to save the product (e.g., to a database) goes here.
-            return RedirectToAction("Index");
+            return NotFound();
         }
-        return View("Product/Create", product);
-    }
-    [HttpGet("details/{id}")]
-    public IActionResult Details(int id)
-    {
-        var product = _context.Products
-            
-            .FirstOrDefault(p => p.Id == id);
+
+        var product = await _context.Products
+            .Include(p => p.Category) // Include Category data
+            .FirstOrDefaultAsync(m => m.Id == id);
 
         if (product == null)
+        {
             return NotFound();
+        }
+
+        // Lấy related products cùng category
+        var relatedProducts = await _context.Products
+            .Include(p => p.Category)
+            .Where(p => p.CategoryId == product.CategoryId && p.Id != product.Id)
+            .Take(4)
+            .ToListAsync();
+
+        ViewBag.RelatedProducts = relatedProducts;
+
 
         return View(product);
     }
-
-    [HttpGet("privacy")]
-    public IActionResult Privacy()
+    [HttpGet]
+    public async Task<IActionResult> Search(string query)
     {
-        return View();
+        if (string.IsNullOrEmpty(query))
+        {
+            // Nếu không có từ khóa, trả về danh sách rỗng
+            return Json(new List<object>());
+        }
+
+        // Tìm kiếm sản phẩm theo tên
+        var products = await _context.Products
+            .Where(p => p.Name.Contains(query)) // Tìm sản phẩm có tên chứa từ khóa
+            .Select(p => new
+            {
+                p.Id,
+                p.Name,
+                ImageUrl = Url.Content("~/img/" + p.ImageUrl) // Đường dẫn hình ảnh sản phẩm
+            })
+            .ToListAsync();
+
+        // Trả về kết quả dưới dạng JSON
+        return Json(products);
     }
 
-    [HttpGet("error")]
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
 }

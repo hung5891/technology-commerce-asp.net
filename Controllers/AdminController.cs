@@ -9,6 +9,8 @@ using TechnologyCommerce.Dbcontext;
 using Microsoft.EntityFrameworkCore;
 namespace TechnologyCommerce.Controllers;
 
+using TechnologyCommerce.ViewModel;
+
 using Azure;
 using Microsoft.AspNetCore.Authorization;
 using X.PagedList;
@@ -461,13 +463,14 @@ public class AdminController : Controller
             Name = product.Name,
             Price = product.Price,
             ImageUrl = product.ImageUrl,
+            CategoryId = product.CategoryId,
         }).ToListAsync();
         // Sử dụng X.PagedList để phân trang
         var pagedProducts = products.ToPagedList(pageNumber, pageSize);
         return View("ProductManagement/Index", pagedProducts);
     }
 
-    [HttpGet]
+    [HttpGet("/update-product/{id}")]
     public async Task<IActionResult> UpdateProductView(int id)
     {
         // Find product by ID
@@ -477,6 +480,8 @@ public class AdminController : Controller
             return NotFound($"Product with ID {id} not found.");
         }
 
+        var category = await _context.Categories.FindAsync(product.CategoryId);
+
         // Convert Product to ProductViewModel
         var productViewModel = new ProductViewModel
         {
@@ -484,6 +489,8 @@ public class AdminController : Controller
             Name = product.Name,
             Price = product.Price,
             ImageUrl = product.ImageUrl,
+            CategoryId = product.CategoryId,
+            CategoryName = category.Name
         };
 
         // Return view with ProductViewModel
@@ -493,6 +500,7 @@ public class AdminController : Controller
     [HttpPost]
     public async Task<IActionResult> UpdateProduct(ProductViewModel model)
     {
+        var test = model;
         if (ModelState.IsValid)
         {
             var product = await _context.Products.FindAsync(model.Id);
@@ -504,6 +512,14 @@ public class AdminController : Controller
             // Cập nhật các thuộc tính
             product.Name = model.Name;
             product.Price = model.Price;
+            product.CategoryId = model.CategoryId; // Cập nhật CategoryId
+            var category = await _context.Categories.FindAsync(model.CategoryId);
+            if (category == null)
+            {
+                ModelState.AddModelError(nameof(model.CategoryId), "Selected category does not exist.");
+                return View("ProductManagement/Update", model);
+            }
+            product.Category = category; // Cập nhật Category
 
             // Xử lý file upload nếu có file mới
             if (model.ImageFile != null)
@@ -519,7 +535,7 @@ public class AdminController : Controller
                 }
 
                 // Cập nhật đường dẫn hình ảnh
-                product.ImageUrl = $"/img/{newFileName}";
+                product.ImageUrl = $"{newFileName}";
             }
 
             _context.Products.Update(product);
@@ -528,11 +544,11 @@ public class AdminController : Controller
             return RedirectToAction("ProductManagement");
         }
 
-        return View(model);
+        return View("ProductManagement/Update", model);
     }
 
     [HttpGet]
-    public async Task<IActionResult> DeleteProduct(int id)
+    public async Task<IActionResult> DeleteProduct(long id)
     {
         // Find product by ID
         var product = await _context.Products.FindAsync(id);
@@ -727,7 +743,7 @@ public class AdminController : Controller
     }
 
     [HttpGet]
-    public async Task<IActionResult> OrderDetails(int id)
+    public async Task<IActionResult> OrderDetails(long id)
     {
         var order = await _context.Orders
             .Include(o => o.OrderItems)
@@ -743,7 +759,7 @@ public class AdminController : Controller
     }
 
     [HttpGet]
-    public async Task<IActionResult> UpdateOrder(int id)
+    public async Task<IActionResult> UpdateOrder(long id)
     {
         // Lấy thông tin đơn hàng theo ID
         var order = await _context.Orders
@@ -759,7 +775,7 @@ public class AdminController : Controller
         // Tạo ViewModel để truyền dữ liệu đến view
         var orderViewModel = new OrderViewModel
         {
-            Id = order.Id,
+            Id = (int)order.Id,
             OrderDate = order.OrderDate,
             TotalAmount = order.TotalAmount,
             Status = order.Status,
@@ -769,7 +785,7 @@ public class AdminController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> UpdateOrderStatus(int id, string status)
+    public async Task<IActionResult> UpdateOrderStatus(long id, string status)
     {
         var order = await _context.Orders.FindAsync(id);
         if (order == null)
@@ -785,7 +801,7 @@ public class AdminController : Controller
     }
 
     [HttpGet]
-    public async Task<IActionResult> DeleteOrder(int id)
+    public async Task<IActionResult> DeleteOrder(long id)
     {
         var order = await _context.Orders
             .Include(o => o.OrderItems)
@@ -803,7 +819,7 @@ public class AdminController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> DeleteMultipleOrders(List<int> ids)
+    public async Task<IActionResult> DeleteMultipleOrders(List<long> ids)
     {
         if (ids == null || !ids.Any())
         {
@@ -822,7 +838,7 @@ public class AdminController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> ExportSelectedOrders(List<int> ids)
+    public async Task<IActionResult> ExportSelectedOrders(List<long> ids)
     {
         if (ids == null || !ids.Any())
         {

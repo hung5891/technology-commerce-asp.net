@@ -1,4 +1,7 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using DocumentFormat.OpenXml.Drawing.Diagrams;
+using Microsoft.AspNetCore.Mvc.ViewEngines;
 
 namespace TechnologyCommerce.Models
 {
@@ -18,5 +21,9 @@ namespace TechnologyCommerce.Models
         [Required]
         [StringLength(100)]
         public string ImageUrl { get; set; }
+        [Required]
+        public int CategoryId { get; set; }
+
+        public Category Category { get; set; } // Điều hướng đến Category
     }
 }

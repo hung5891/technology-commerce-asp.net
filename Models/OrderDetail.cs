@@ -11,7 +11,7 @@ namespace TechnologyCommerce.Models
         public int Id { get; set; } // Khóa chính của mục đơn hàng
 
         [Required]
-        public int OrderId { get; set; } // Khóa ngoại liên kết với đơn hàng
+        public long OrderId { get; set; } // Khóa ngoại liên kết với đơn hàng
 
         [ForeignKey("OrderId")]
         public Order Order { get; set; } // Điều hướng đến đơn hàng
@@ -26,7 +26,7 @@ namespace TechnologyCommerce.Models
         [Range(1, int.MaxValue, ErrorMessage = "Quantity must be at least 1.")]
         public int Quantity { get; set; } // Số lượng sản phẩm
 
-       [Required]
+        [Required]
         [Column(TypeName = "decimal(18,4)")]
         public decimal Price { get; set; } // Giá của sản phẩm tại thời điểm đặt hàng
     }

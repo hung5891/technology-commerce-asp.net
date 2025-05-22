@@ -16,7 +16,10 @@ namespace TechnologyCommerce.ViewModel
 
         public string? ImageUrl { get; set; }
 
-        [Required(ErrorMessage = "Image is required")]
         public IFormFile ImageFile { get; set; }
+        public string CategoryName { get; set; } // Thêm thuộc tính này
+
+        public int CategoryId { get; set; } // Thêm thuộc tính này
+
     }
 }

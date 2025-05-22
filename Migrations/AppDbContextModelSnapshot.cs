@@ -273,6 +273,10 @@ namespace TechnologyCommerce.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CartId");
@@ -282,13 +286,31 @@ namespace TechnologyCommerce.Migrations
                     b.ToTable("CartItems");
                 });
 
-            modelBuilder.Entity("TechnologyCommerce.Models.Order", b =>
+            modelBuilder.Entity("TechnologyCommerce.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("TechnologyCommerce.Models.Order", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
@@ -320,8 +342,8 @@ namespace TechnologyCommerce.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
+                    b.Property<long>("OrderId")
+                        .HasColumnType("bigint");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,4)");
@@ -349,6 +371,9 @@ namespace TechnologyCommerce.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -363,6 +388,8 @@ namespace TechnologyCommerce.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
                 });
@@ -431,7 +458,7 @@ namespace TechnologyCommerce.Migrations
 
             modelBuilder.Entity("TechnologyCommerce.Models.CartItem", b =>
                 {
-                    b.HasOne("TechnologyCommerce.Models.Cart", "Cart")
+                    b.HasOne("TechnologyCommerce.Models.Cart", null)
                         .WithMany("CartItems")
                         .HasForeignKey("CartId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -442,8 +469,6 @@ namespace TechnologyCommerce.Migrations
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Cart");
 
                     b.Navigation("Product");
                 });
@@ -478,6 +503,17 @@ namespace TechnologyCommerce.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("TechnologyCommerce.Models.Product", b =>
+                {
+                    b.HasOne("TechnologyCommerce.Models.Category", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
             modelBuilder.Entity("TechnologyCommerce.Models.ApplicationUser", b =>
                 {
                     b.Navigation("Cart")
@@ -487,6 +523,11 @@ namespace TechnologyCommerce.Migrations
             modelBuilder.Entity("TechnologyCommerce.Models.Cart", b =>
                 {
                     b.Navigation("CartItems");
+                });
+
+            modelBuilder.Entity("TechnologyCommerce.Models.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("TechnologyCommerce.Models.Order", b =>

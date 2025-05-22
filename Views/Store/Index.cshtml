@@ -24,22 +24,38 @@
 						<div class="product-body">
 							<p class="product-category">Category</p>
 							<h3 class="product-name"><a href="#">@product.Name</a></h3>
-							<h4 class="product-price">@product.Price <del class="product-old-price">@product.Price
-								</del></h4>
+							<h4 class="product-price">@product.Price <del class="product-old-price">@product.Price </del>
+							</h4>
+							<div class="product-rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</div>
+
+							<div class="product-btns">
+
+								<a href="@Url.Action("Details", "Product", new { id = product.Id })" class="quick-view">
+									<i class="fa fa-eye"></i>
+									<span class="tooltipp">quick view</span>
+								</a>
+							</div>
 
 						</div>
+
+						<!-- /product body -->
 						<div class="add-to-cart">
 							<form asp-controller="Cart" asp-action="AddToCart" method="post">
 								<input type="hidden" name="productId" value="@product.Id" />
 								<input type="hidden" name="quantity" value="1" />
-								<input type="hidden" name="returnUrl"
-									value="@Context.Request.Path@Context.Request.QueryString" />
 								<button type="submit" class="add-to-cart-btn">
 									<i class="fa fa-shopping-cart"></i> add to cart
 								</button>
 							</form>
 						</div>
 					</div>
+
 				</div>
 				<!-- /product -->
 			}

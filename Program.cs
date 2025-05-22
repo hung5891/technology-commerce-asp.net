@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TechnologyCommerce.Dbcontext;
 using TechnologyCommerce.Models;
+using TechnologyCommerce.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +32,8 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
+builder.Services.AddSingleton<IVnPayService, VnPayService>();
+
 var app = builder.Build();
 
 // ... Phần còn lại giữ nguyên

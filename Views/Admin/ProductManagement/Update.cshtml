@@ -292,18 +292,37 @@
 
                                     <div class="form-group">
                                         <label>Current Image</label>
-                                        <img src="@Model.ImageUrl" alt="Current Image"
+                                        <img src="~/img/@Model.ImageUrl" alt="Current Image"
                                             style="width: 150px; height: auto;" />
                                     </div>
 
+                                    <div class="form-group">
+                                        <label asp-for="CategoryId" class="form-label">CategoryId</label>
+                                        <input type="text" asp-for="CategoryId" class="form-control"
+                                            placeholder="Enter CategoryId" />
+                                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="ImageUrl" class="form-label">ImageUrl</label>
+                                        <input type="text" asp-for="ImageUrl" class="form-control"
+                                            placeholder="Enter ImageUrl" />
+                                        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                                    </div>
                                     <div class="form-group">
                                         <label asp-for="ImageFile" class="form-label">Upload Image</label>
                                         <input type="file" asp-for="ImageFile" class="form-control" />
                                         <span asp-validation-for="ImageFile" class="text-danger"></span>
                                     </div>
+                                    <div class="form-group">
+                                        <label asp-for="CategoryName" class="form-label">CategoryName</label>
+                                        <input type="text" asp-for="CategoryName" class="form-control"
+                                            placeholder="Enter CategoryName" />
+                                        <span asp-validation-for="CategoryName" class="text-danger"></span>
+                                    </div>
+
 
                                     <div class="d-flex justify-content-between">
-                                        <a asp-action="UserManagement" class="btn btn-secondary">Cancel</a>
+                                        <a asp-action="ProductManagerment" class="btn btn-secondary">Cancel</a>
                                         <button type="submit" class="btn btn-primary">Update</button>
                                     </div>
                                 </form>

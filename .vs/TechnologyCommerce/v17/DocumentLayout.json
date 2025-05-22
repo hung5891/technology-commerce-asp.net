@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\views\\myaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|solutionrelative:views\\myaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|solutionrelative:views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\views\\checkout\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|solutionrelative:views\\checkout\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|solutionrelative:controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|solutionrelative:views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C75EBF0E-FF6F-6B9E-C6F1-A5134406001F}|TechnologyCommerce.csproj|e:\\mylearning\\advanceprogram\\technologycommerce\\technologycommerce\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,6 +57,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Migrations\\20250423173130_Cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250423173130_Cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Views\\MyAccount\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\MyAccount\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,6 +75,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PaymentSuccess.cshtml",
+              "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Views\\CheckOut\\PaymentSuccess.cshtml",
+              "RelativeDocumentMoniker": "Views\\CheckOut\\PaymentSuccess.cshtml",
+              "ToolTip": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Views\\CheckOut\\PaymentSuccess.cshtml",
+              "RelativeToolTip": "Views\\CheckOut\\PaymentSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T15:04:34.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Views\\MyAccount\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\MyAccount\\Index.cshtml",
@@ -78,12 +95,11 @@
               "RelativeToolTip": "Views\\MyAccount\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T09:16:18.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T09:16:18.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Views\\CheckOut\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\CheckOut\\Index.cshtml",
@@ -95,13 +111,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CheckOutController.cs",
               "DocumentMoniker": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Controllers\\CheckOutController.cs",
               "RelativeDocumentMoniker": "Controllers\\CheckOutController.cs",
               "ToolTip": "E:\\MyLearning\\AdvanceProgram\\TechnologyCommerce\\TechnologyCommerce\\Controllers\\CheckOutController.cs",
               "RelativeToolTip": "Controllers\\CheckOutController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAALsAAAAAAAAAAADwv8YAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T03:21:59.79Z"
             },

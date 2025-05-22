@@ -36,6 +36,7 @@
         <h5>SUBTOTAL: @Model.TotalPrice.ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))</h5>
     </div>
     <div class="cart-btns">
+        <a asp-controller="Cart" asp-action="Index">View Cart</a>
         <a asp-controller="Checkout" asp-action="Index">Checkout <i class="fa fa-arrow-circle-right"></i></a>
     </div>
 </div>

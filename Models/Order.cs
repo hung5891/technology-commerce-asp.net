@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Numerics;
 using TechnologyCommerce.Models;
 
 namespace TechnologyCommerce.Models
@@ -9,7 +10,7 @@ namespace TechnologyCommerce.Models
     public class Order
     {
         [Key]
-        public int Id { get; set; } // Khóa chính của đơn hàng
+        public long Id { get; set; } // Khóa chính của đơn hàng
 
         [Required]
         public string UserId { get; set; } // Khóa ngoại liên kết với người dùng
@@ -26,7 +27,6 @@ namespace TechnologyCommerce.Models
         [Required]
         [StringLength(50)]
         public string Status { get; set; } = "Pending"; // Trạng thái đơn hàng (Pending, Completed, Canceled, etc.)
-
         public ICollection<OrderDetail> OrderItems { get; set; } = new List<OrderDetail>(); // Danh sách các mục trong đơn hàng
     }
 }

@@ -1,0 +1,229 @@
+@model TechnologyCommerce.Models.Cart
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<style>
+    .cart-total-box {
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+        padding: 32px 24px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .cart-total-box h1 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    .cart-total-box h5 {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .cart-total-box p {
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+
+    .cart-total-box .subtotal,
+    .cart-total-box .total {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18px;
+    }
+
+    .cart-total-box .total {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding: 18px 0;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .cart-total-box .btn-checkout {
+        display: block;
+        width: 100%;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 24px;
+        padding: 14px 0;
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-top: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: background 0.2s;
+        text-align: center;
+    }
+
+    .cart-total-box .btn-checkout:hover {
+        background: #0056b3;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .cart-total-box .coupon-row {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 18px;
+    }
+
+    .cart-total-box input[type="text"] {
+        flex: 1;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        padding: 8px 12px;
+    }
+
+    .cart-total-box .btn-coupon {
+        background: #f8f9fa;
+        border: 1px solid #007bff;
+        color: #007bff;
+        border-radius: 6px;
+        padding: 8px 18px;
+        font-weight: 500;
+        transition: background 0.2s, color 0.2s;
+    }
+
+    .cart-total-box .btn-coupon:hover {
+        background: #007bff;
+        color: #fff;
+    }
+</style>
+
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">Cart</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active text-white">Cart</li>
+    </ol>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row">
+            <!-- Sản phẩm bên trái -->
+            <div class="col-lg-8 col-md-7">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Products</th>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                                <th>Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.CartItems)
+                            {
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="~/img/@item.Product.ImageUrl" class="img-fluid me-5 rounded-circle"
+                                                style="width: 80px; height: 80px;" alt="@item.Product.Name">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0 mt-4">
+                                            <a asp-action="Detail" asp-controller="Product" asp-route-id="@item.ProductId">
+                                                @item.Product.Name
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0 mt-4">
+                                            @item.Product.Price.ToString("C0",
+                                            System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))
+                                    </p>
+                                </td>
+                                <td>
+                                    <form asp-action="UpdateQuantity" asp-controller="Cart" method="post"
+                                        class="update-qty-form" style="display:inline;">
+                                        <div class="input-group quantity mt-4" style="width: 100px;">
+                                            <input type="hidden" name="productId" value="@item.ProductId" />
+                                            <div class="input-group-btn">
+                                                <button type="submit" name="action" value="minus"
+                                                    class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                                    <i class="fa fa-minus"></i>
+                                                </button>
+                                            </div>
+                                            <input type="text" name="quantity"
+                                                class="form-control form-control-sm text-center border-0"
+                                                value="@item.Quantity" readonly>
+                                            <div class="input-group-btn">
+                                                <button type="submit" name="action" value="plus"
+                                                    class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                                    <i class="fa fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <p class="mb-0 mt-4">
+                                        @((item.Product.Price * item.Quantity).ToString("C0",
+                                                                                System.Globalization.CultureInfo.GetCultureInfo("vi-VN")))
+                                    </p>
+                                </td>
+                                <td>
+                                    <form asp-action="RemoveItem" asp-controller="Cart" method="post">
+                                        <input type="hidden" name="productId" value="@item.ProductId" />
+                                        <button type="submit" class="btn btn-md rounded-circle bg-light border mt-4">
+                                            <i class="fa fa-times text-danger"></i>
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Cart Total bên phải -->
+            <div class="col-lg-4 col-md-5">
+                <div class="cart-total-box">
+                    <form class="coupon-row">
+                        <input type="text" placeholder="Coupon Code">
+                        <button class="btn-coupon" type="button">Apply Coupon</button>
+                    </form>
+                    <h1>Cart <span class="fw-normal">Total</span></h1>
+                    <div class="subtotal">
+                        <h5>Subtotal:</h5>
+                        <p>
+                            @Model.CartItems.Sum(p => p.Product.Price * p.Quantity).ToString("C0",
+                            System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <h5>Shipping</h5>
+                        <p>Flat rate: 0₫</p>
+                    </div>
+                    <p class="mb-2 text-end">Shipping to Vietnam.</p>
+                    <div class="total">
+                        <h5>Total</h5>
+                        <p>
+                            @Model.CartItems.Sum(p => p.Product.Price * p.Quantity).ToString("C0",
+                                                        System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a asp-action="Index" asp-controller="CheckOut" class="btn-checkout">
+                            PROCEED CHECKOUT
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

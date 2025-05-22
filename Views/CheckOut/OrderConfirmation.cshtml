@@ -1,0 +1,15 @@
+@model TechnologyCommerce.Models.Order
+
+@{
+    ViewData["Title"] = "Xác nhận đơn hàng";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Cảm ơn bạn đã đặt hàng!</h2>
+    <p class="text-center">Mã đơn hàng của bạn: <strong>@Model.Id</strong></p>
+    <p class="text-center">Tổng tiền: <strong>@Model.TotalAmount.ToString("C0",
+                        System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))</strong></p>
+    <div class="text-center mt-4">
+        <a href="/" class="btn btn-primary">Quay lại trang chủ</a>
+    </div>
+</div>

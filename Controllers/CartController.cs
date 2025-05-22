@@ -66,6 +66,43 @@ public class CartController : Controller
 
         return View(dbCart);
     }
+    [HttpPost]
+    public async Task<IActionResult> UpdateQuantity(int productId, int quantity, string action)
+    {
+        var userId = _userManager.GetUserId(User);
+
+        if (userId == null)
+        {
+            // Session cart
+            var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
+            var cartItem = cart.FirstOrDefault(ci => ci.ProductId == productId);
+            if (cartItem != null)
+            {
+                if (action == "plus") cartItem.Quantity++;
+                else if (action == "minus" && cartItem.Quantity > 1) cartItem.Quantity--;
+            }
+            HttpContext.Session.SetObjectAsJson("Cart", cart);
+        }
+        else
+        {
+            // DB cart
+            var dbCart = await _context.Carts
+                .Include(c => c.CartItems)
+                .ThenInclude(ci => ci.Product)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            var dbCartItem = dbCart?.CartItems.FirstOrDefault(ci => ci.ProductId == productId);
+            if (dbCartItem != null)
+            {
+                if (action == "plus") dbCartItem.Quantity++;
+                else if (action == "minus" && dbCartItem.Quantity > 1) dbCartItem.Quantity--;
+                // Tính lại tổng tiền
+                dbCart.TotalPrice = dbCart.CartItems.Sum(ci => ci.Product != null ? ci.Product.Price * ci.Quantity : 0);
+                await _context.SaveChangesAsync();
+            }
+        }
+        return RedirectToAction("Index");
+    }
 
     public async Task<IActionResult> AddToCart(int productId, int quantity = 1)
     {
@@ -124,11 +161,10 @@ public class CartController : Controller
             dbCartItem.Quantity += quantity;
         }
 
-        var product = await _context.Products.FindAsync(productId);
-        if (product != null)
-        {
-            dbCart.TotalPrice += product.Price * quantity;
-        }
+        // Sau khi thêm hoặc cập nhật dbCartItem
+        await _context.Entry(dbCart).Collection(c => c.CartItems).LoadAsync();
+        await _context.Entry(dbCart).Collection(c => c.CartItems).Query().Include(ci => ci.Product).LoadAsync();
+        dbCart.TotalPrice = dbCart.CartItems.Sum(ci => ci.Product != null ? ci.Product.Price * ci.Quantity : 0);
 
         await _context.SaveChangesAsync();
 
@@ -182,4 +218,5 @@ public class CartController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+   
 }

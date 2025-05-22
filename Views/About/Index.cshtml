@@ -1,0 +1,246 @@
+@{
+    ViewData["Title"] = "About";
+}
+
+<div class="about-page">
+    <style>
+        /* Hero Section */
+        .about-page .hero {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+
+        .about-page .hero .intro-excerpt h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .about-page .hero .intro-excerpt p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .about-page .hero .btn {
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+
+        .about-page .hero .btn-secondary {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .about-page .hero .btn-white-outline {
+            border: 2px solid #007bff;
+            color: #007bff;
+            background-color: transparent;
+        }
+
+        .about-page .hero-img-wrap img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Why Choose Us Section */
+        .about-page .why-choose-section {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+
+        .about-page .why-choose-section .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .about-page .why-choose-section .feature {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .about-page .why-choose-section .feature .icon img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .about-page .why-choose-section .feature h3 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .about-page .why-choose-section .feature p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Team Section */
+        .about-page .untree_co-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+
+        .about-page .untree_co-section .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .about-page .untree_co-section img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .about-page .untree_co-section h3 a {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .about-page .untree_co-section h3 a:hover {
+            text-decoration: underline;
+        }
+
+        .about-page .untree_co-section .position {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .about-page .untree_co-section p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Testimonial Slider */
+        .about-page .testimonial-section {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+
+        .about-page .testimonial-section .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .about-page .testimonial-slider-wrap {
+            position: relative;
+        }
+
+        .about-page .testimonial-slider .item {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 10px;
+            background-color: #f8f9fa;
+        }
+
+        .about-page .testimonial-slider .item blockquote {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .about-page .testimonial-slider .author-info {
+            text-align: center;
+        }
+
+        .about-page .testimonial-slider .author-pic img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .about-page .testimonial-slider .author-info h3 {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .about-page .testimonial-slider .author-info .position {
+            font-size: 1rem;
+            color: #666;
+        }
+    </style>
+
+    <!-- Start Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <div class="intro-excerpt">
+                        <h1>About Us</h1>
+                        <p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                            vulputate velit imperdiet dolor tempor tristique.</p>
+                        <p>
+                            <a href="@Url.Action("Index", "Store")" class="btn btn-secondary me-2">Shop Now</a>
+                            <a href="@Url.Action("Index", "Home")" class="btn btn-white-outline">Explore</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="hero-img-wrap">
+                        <img src="img\s15.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <!-- Start Why Choose Us Section -->
+    <div class="why-choose-section">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Why Choose Us</h2>
+                    <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit
+                        imperdiet dolor tempor tristique.</p>
+
+                    <div class="row my-5">
+                        <div class="col-6 col-md-6">
+                            <div class="feature">
+                                <div class="icon">
+                                    <img src="img/truck.svg" alt="Image" class="imf-fluid">
+                                </div>
+                                <h3>Fast &amp; Free Shipping</h3>
+                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                                    vulputate.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-6">
+                            <div class="feature">
+                                <div class="icon">
+                                    <img src="img/bag.svg" alt="Image" class="imf-fluid">
+                                </div>
+                                <h3>Easy to Shop</h3>
+                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                                    vulputate.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Why Choose Us Section -->
+
+
+</div>

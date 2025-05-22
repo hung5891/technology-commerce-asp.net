@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "payment-fail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1 class="text-center text-black">Payment Fail</h1>
+
+<h2 class="text-center text-black">@TempData["ErrorMessage"]</h2>
+
+<div class="container mt-5">
+    <h2 class="text-center text-black">Thanh toán thất bại!</h2>
+    <p class="text-center text-black">Vui lòng thử lại hoặc liên hệ với chúng tôi để được hỗ trợ.</p>
+    <div class="text-center mt-4">
+        <a href="/" class="btn btn-primary">Quay lại trang chủ</a>
+    </div>
+</div>

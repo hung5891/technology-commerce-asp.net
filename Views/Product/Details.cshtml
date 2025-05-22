@@ -1,0 +1,174 @@
+@model TechnologyCommerce.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+<div class="product-detail-page">
+
+    <!-- BREADCRUMB -->
+    <div id="breadcrumb" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="breadcrumb-tree">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#">All Categories</a></li>
+                        <li><a href="#">@Model.Category.Name</a></li>
+                        <li class="active">@Model.Name</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /BREADCRUMB -->
+
+    <!-- SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <!-- Product main img -->
+                <div class="col-md-5 col-md-push-2">
+                    <div id="product-main-img">
+                        <div class="product-preview">
+                            <img src="~/img/@Model.ImageUrl" alt="@Model.Name">
+                        </div>
+                    </div>
+                </div>
+                <!-- /Product main img -->
+
+                <!-- Product thumb imgs -->
+                <div class="col-md-2  col-md-pull-5">
+                    <div id="product-imgs">
+                        <div class="product-preview">
+                            <img src="~/img/@Model.ImageUrl" alt="@Model.Name">
+                        </div>
+                    </div>
+                </div>
+                <!-- /Product thumb imgs -->
+
+                <!-- Product details -->
+                <div class="col-md-5">
+                    <div class="product-details">
+                        <h2 class="product-name">@Model.Name</h2>
+                        <div>
+                            <div class="product-rating">
+                                @for (int i = 0; i < 5; i++)
+                                {
+                                    <i class="fa fa-star"></i>
+                                }
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="product-price">$@Model.Price.ToString("0.00")</h3>
+                            <span class="product-available">In Stock</span>
+                        </div>
+
+                        <div class="add-to-cart">
+                            <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                                <input type="hidden" name="productId" value="@Model.Id" />
+                                <div class="qty-label">
+                                    Quantity:
+                                    <input type="number" name="quantity" id="quantity" value="1" min="1"
+                                        class="form-control" style="width: 80px; display: inline-block;" />
+                                </div>
+                                <button type="submit" class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-cart"></i> Add to Cart
+                                </button>
+                            </form>
+                        </div>
+
+                        <ul class="product-links">
+                            <li>Category:</li>
+                            <li><a href="#">@Model.Category.Name</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /Product details -->
+            </div>
+
+            <!-- Related Products -->
+            <div class="row"></div>
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h3 class="title">Related Products</h3>
+                </div>
+            </div>
+
+            @foreach (var item in ViewBag.RelatedProducts)
+            {
+                <div class="col-md-3 col-xs-6">
+                    <div class="product">
+                        <div class="product-img">
+                            <img src="~/img/@item.ImageUrl" alt="@item.Name">
+                        </div>
+                        <div class="product-body">
+                            <p class="product-category">@item.Category.Name</p>
+                            <h3 class="product-name">
+                                <a href="@Url.Action("Details", "Product", new { id = item.Id })">@item.Name</a>
+                            </h3>
+                            <h4 class="product-price">$@item.Price.ToString("0.00")</h4>
+                        </div>
+                        <div class="add-to-cart">
+                            <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                                <input type="hidden" name="productId" value="@Model.Id" />
+
+                                <button type="submit" class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-cart"></i> Add to Cart
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <!-- /Related Products -->
+    </div>
+</div>
+<!-- /SECTION -->
+</div>
+<style>
+    .product-detail-page .product {
+        border: 1px solid #eee;
+        border-radius: 8px;
+        background: #fff;
+        transition: box-shadow 0.2s;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+        padding-bottom: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .product-detail-page .product-img img {
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        height: 248px;
+        object-fit: cover;
+    }
+
+    .product-detail-page .product-body {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .product-detail-page .add-to-cart {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .product-detail-page .product-label {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+</style>
+@section Scripts {
+    <script>
+        function addToCart(productId) {
+            const quantity = document.getElementById('quantity').value;
+            // Add your cart logic here
+        }
+    </script>
+}

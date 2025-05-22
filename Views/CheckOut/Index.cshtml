@@ -1,124 +1,178 @@
 ﻿@model TechnologyCommerce.Models.Cart
+@{
+	ViewData["Title"] = "Thanh toán";
+}
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+<style>
+	.checkout-container {
+		background: #fff;
+		border-radius: 12px;
+		box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+		padding: 32px 24px;
+		margin: 32px auto;
+		max-width: 1100px;
+	}
 
+	.order-details-box {
+		background: #fafbfc;
+		border-radius: 8px;
+		padding: 24px 20px;
+		margin-top: 12px;
+		border: 1px solid #eee;
+	}
 
+	.order-details-box .order-total {
+		color: #d0021b;
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
 
-<!-- SECTION -->
-<div class="section">
-	<!-- container -->
-	<div class="container">
-		<!-- row -->
-		<div class="row">
+	.order-details-box .btn-order {
+		background: #d0021b;
+		color: #fff;
+		border-radius: 24px;
+		font-weight: 600;
+		font-size: 1.1rem;
+		padding: 12px 0;
+		width: 100%;
+		margin-top: 18px;
+		transition: background 0.2s;
+	}
 
-			<div class="col-md-7">
-				<!-- Billing Details -->
-				<div class="billing-details">
-					<div class="section-title">
-						<h3 class="title">Billing address</h3>
-					</div>
-					<!-- ...các input giữ nguyên... -->
+	.order-details-box .btn-order:hover {
+		background: #a80015;
+		color: #fff;
+	}
+
+	.order-details-box .order-col {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+	}
+
+	.order-details-box .order-col strong {
+		font-weight: 700;
+	}
+
+	.order-details-box .order-products {
+		margin-bottom: 10px;
+	}
+
+	.order-details-box .order-products .order-col {
+		font-size: 1rem;
+	}
+
+	.order-details-box .order-col.total {
+		font-size: 1.2rem;
+		font-weight: bold;
+		margin-top: 18px;
+		margin-bottom: 0;
+	}
+
+	.order-details-box .order-col.shipping {
+		margin-bottom: 0;
+	}
+
+	.order-details-box .order-col .order-total {
+		font-size: 1.3rem;
+	}
+
+	.order-details-box .terms {
+		margin: 18px 0 0 0;
+	}
+
+	.order-details-box .terms label {
+		font-weight: 400;
+		font-size: 1rem;
+	}
+</style>
+
+<div class="container checkout-container">
+	<div class="row">
+		<!-- Form thông tin khách hàng -->
+		<div class="col-md-7">
+			<h3 class="mb-4">Thông tin khách hàng</h3>
+			<form asp-action="CreateOrder" asp-controller="CheckOut" method="post" id="checkoutForm">
+				<div class="form-group mb-3">
+					<label>Họ tên khách hàng</label>
+					<input type="text" name="CustomerName" class="form-control" required autocomplete="off" />
 				</div>
-				<!-- /Billing Details -->
-
-				<!-- Shiping Details -->
-				<div class="shiping-details">
-					<!-- ...giữ nguyên... -->
+				<div class="form-group mb-3">
+					<label>Số điện thoại</label>
+					<input type="text" name="Phone" class="form-control" required autocomplete="off" />
 				</div>
-				<!-- /Shiping Details -->
-
-				<!-- Order notes -->
-				<div class="order-notes">
-					<textarea class="input" placeholder="Order Notes"></textarea>
+				<div class="form-group mb-3">
+					<label>Địa chỉ</label>
+					<input type="text" name="Address" class="form-control" required autocomplete="off" />
 				</div>
-				<!-- /Order notes -->
-			</div>
-
-			<!-- Order Details -->
-			<div class="col-md-5 order-details">
-				<div class="section-title text-center">
-					<h3 class="title">Your Order</h3>
+				<div class="form-group mb-3">
+					<label>Email</label>
+					<input type="email" name="Email" class="form-control" required autocomplete="off" />
 				</div>
-				<div class="order-summary">
-					<div class="order-col">
-						<div><strong>PRODUCT</strong></div>
-						<div><strong>TOTAL</strong></div>
-					</div>
-					<div class="order-products">
-						@foreach (var item in Model.CartItems)
-						{
-							<div class="order-col">
-								<div>@item.Quantity x @item.Product.Name</div>
-								<div>@((item.Product.Price * item.Quantity).ToString("C0",
-																	System.Globalization.CultureInfo.GetCultureInfo("vi-VN")))</div>
-						</div>
-												}
-					</div>
-					<div class="order-col">
-						<div>Shiping</div>
-						<div><strong>FREE</strong></div>
-					</div>
-					<div class="order-col">
-						<div><strong>TOTAL</strong></div>
-						<div><strong class="order-total">@Model.TotalPrice.ToString("C0",
-																System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))</strong></div>
-					</div>
+				<div class="form-group mb-3">
+					<label>Ghi chú đơn hàng</label>
+					<textarea name="Note" class="form-control" rows="2" placeholder="Order Notes"></textarea>
 				</div>
-				<div class="payment-method">
-					<!-- ...giữ nguyên các radio... -->
+				<div class="form-group mb-3">
+					<label>Hình thức thanh toán</label>
+					<select class="form-control" name="PaymentMethod">
+						<option value="COD" selected>Thanh toán khi nhận hàng (COD)</option>
+						<option value="VNPay">Thanh toán qua VNPay</option>
+					</select>
 				</div>
-				<div class="input-checkbox">
-					<input type="checkbox" id="terms">
-					<label for="terms">
-						<span></span>
-						I've read and accept the <a href="#">terms & conditions</a>
+				<!-- Điều khoản -->
+				<div class="form-group form-check terms">
+					<input type="checkbox" class="form-check-input" id="terms" required>
+					<label class="form-check-label" for="terms">
+						Tôi đã đọc và đồng ý với <a href="#">điều khoản & chính sách</a>
 					</label>
 				</div>
-				<form asp-controller="CheckOut" asp-action="CreateOrder" method="post">
-					<button type="submit" class="primary-btn order-submit">Place order</button>
-				</form>
-			</div>
-			<!-- /Order Details -->
+				<!-- Nút đặt hàng nằm ở cột phải -->
+			</form>
 		</div>
-		<!-- /row -->
-	</div>
-	<!-- /container -->
-</div>
-<!-- /SECTION -->
-
-<!-- NEWSLETTER -->
-<div id="newsletter" class="section">
-	<!-- container -->
-	<div class="container">
-		<!-- row -->
-		<div class="row">
-			<div class="col-md-12">
-				<div class="newsletter">
-					<p>Sign Up for the <strong>NEWSLETTER</strong></p>
-					<form>
-						<input class="input" type="email" placeholder="Enter Your Email">
-						<button class="newsletter-btn"><i class="fa fa-envelope"></i> Subscribe</button>
-					</form>
-					<ul class="newsletter-follow">
-						<li>
-							<a href="#"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fa fa-instagram"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fa fa-pinterest"></i></a>
-						</li>
-					</ul>
+		<!-- Thông tin đơn hàng -->
+		<div class="col-md-5">
+			<div class="order-details-box">
+				<h3 class="text-center mb-4">YOUR ORDER</h3>
+				<div class="order-col">
+					<div><strong>PRODUCT</strong></div>
+					<div><strong>TOTAL</strong></div>
 				</div>
+				<div class="order-products">
+					@foreach (var item in Model.CartItems)
+					{
+						<div class="order-col">
+							<div>@item.Quantity x @item.Product.Name</div>
+							<div>@((item.Product.Price * item.Quantity).ToString("C0",
+															System.Globalization.CultureInfo.GetCultureInfo("vi-VN")))</div>
+					</div>
+										}
+				</div>
+				<div class="order-col shipping">
+					<div>Shipping</div>
+					<div><strong>FREE</strong></div>
+				</div>
+				<div class="order-col total">
+					<div><strong>TOTAL</strong></div>
+					<div class="order-total">
+						@Model.TotalPrice.ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))
+					</div>
+				</div>
+				<button type="submit" form="checkoutForm" class="btn btn-order mt-4">PLACE ORDER</button>
 			</div>
 		</div>
-		<!-- /row -->
 	</div>
-	<!-- /container -->
 </div>
-<!-- /NEWSLETTER -->
 
-<!-- jQuery Plugins giữ nguyên -->
+@section Scripts {
+	<script>
+		// Validate điều khoản
+		document.getElementById('checkoutForm').addEventListener('submit', function (e) {
+			if (!document.getElementById('terms').checked) {
+				alert('Bạn phải đồng ý với điều khoản & chính sách!');
+				e.preventDefault();
+			}
+		});
+	</script>
+}

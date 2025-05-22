@@ -1,0 +1,144 @@
+@model ProfileViewModel
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<!-- Thêm CSS trực tiếp -->
+<style>
+    .profile-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .profile-form {
+        flex: 1;
+        max-width: 45%;
+        margin-left: 20px;
+        /* Thêm khoảng trống bên trái */
+    }
+
+    .order-history {
+        flex: 1;
+        max-width: 45%;
+    }
+
+    .form-group label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .form-control {
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table th,
+    table td {
+        text-align: left;
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    table th {
+        background-color: #f8f9fa;
+        font-weight: bold;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .btn-info {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+        color: #fff;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+
+    .btn-info:hover {
+        background-color: #138496;
+        border-color: #117a8b;
+    }
+</style>
+
+<div class="profile-container">
+    <!-- Form chỉnh sửa thông tin cá nhân -->
+    <div class="profile-form">
+        <h2>Profile</h2>
+        <form asp-action="UpdateProfile" method="post">
+            <div class="form-group">
+                <label for="FullName">Full Name</label>
+                <input type="text" class="form-control" id="FullName" name="FullName" value="@Model.FullName" />
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" readonly />
+            </div>
+            <div class="form-group">
+                <label for="PhoneNumber">Phone Number</label>
+                <input type="text" class="form-control" id="PhoneNumber" name="PhoneNumber"
+                    value="@Model.PhoneNumber" />
+            </div>
+            <div class="form-group">
+                <label for="Address">Address</label>
+                <textarea class="form-control" id="Address" name="Address">@Model.Address</textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Update Profile</button>
+        </form>
+    </div>
+
+    <!-- Danh sách đơn hàng đã thanh toán -->
+    <div class="order-history">
+        <h2>Order History</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Order Date</th>
+                    <th>Total Amount</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model.Orders)
+                {
+                    <tr>
+                        <td>@order.Id</td>
+                        <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
+                        <td>@order.TotalAmount.ToString("C")</td>
+                        <td>@order.Status</td>
+                        <td>
+                            <a asp-controller="Orders" asp-action="Details" asp-route-id="@order.Id"
+                                class="btn btn-info btn-sm">View</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

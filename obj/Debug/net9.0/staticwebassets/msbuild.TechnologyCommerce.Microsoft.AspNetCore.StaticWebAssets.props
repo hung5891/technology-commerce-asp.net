@@ -1296,6 +1296,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_0a9c773a-aec2-49fc-a8f0-fcf063bb5b19_31ab1453-0a02-4e2c-b98e-afc60874ee5b.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_0d8bfa29-7a7a-467c-9481-b1dc966c14a3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_0d8bfa29-7a7a-467c-9481-b1dc966c14a3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_0d8bfa29-7a7a-467c-9481-b1dc966c14a3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_12dc5e09-19f5-47ff-aaae-3d92780d4797.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>TechnologyCommerce</SourceId>
@@ -1313,6 +1331,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_12dc5e09-19f5-47ff-aaae-3d92780d4797.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_14840431-71b5-4f37-b3ed-01717fee44a9.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_14840431-71b5-4f37-b3ed-01717fee44a9.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_14840431-71b5-4f37-b3ed-01717fee44a9.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_1ac2dd27-aa72-4f01-9156-53745e6be1ff.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_1ac2dd27-aa72-4f01-9156-53745e6be1ff.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_1ac2dd27-aa72-4f01-9156-53745e6be1ff.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_1ee9596c-1de8-467e-be31-1639ca15cfeb.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_1ee9596c-1de8-467e-be31-1639ca15cfeb.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_1ee9596c-1de8-467e-be31-1639ca15cfeb.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_3207ea39-a333-4543-8962-dd1ad2aad9c6.jpg'))">
       <SourceType>Package</SourceType>
@@ -1332,6 +1404,222 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_3207ea39-a333-4543-8962-dd1ad2aad9c6.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_3632106a-0d4e-4fd0-ad69-c26d7504bc75.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_3632106a-0d4e-4fd0-ad69-c26d7504bc75.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_3632106a-0d4e-4fd0-ad69-c26d7504bc75.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_4008926a-48eb-4d00-a22e-d45f1b3bd744.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_4008926a-48eb-4d00-a22e-d45f1b3bd744.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_4008926a-48eb-4d00-a22e-d45f1b3bd744.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_40ec4ff9-1cc7-497b-918b-4ce5d00a6af3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_40ec4ff9-1cc7-497b-918b-4ce5d00a6af3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_40ec4ff9-1cc7-497b-918b-4ce5d00a6af3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_43affef2-16b0-4b14-9d43-f58b143ff6bd.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_43affef2-16b0-4b14-9d43-f58b143ff6bd.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_43affef2-16b0-4b14-9d43-f58b143ff6bd.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_4463282e-d4a3-448a-b33e-7ce6ebd90be7.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_4463282e-d4a3-448a-b33e-7ce6ebd90be7.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_4463282e-d4a3-448a-b33e-7ce6ebd90be7.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_5322cb5b-9675-4fb5-b4c8-bad1dfc90a26.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_5322cb5b-9675-4fb5-b4c8-bad1dfc90a26.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_5322cb5b-9675-4fb5-b4c8-bad1dfc90a26.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_542f62c7-06fa-476c-9eeb-e7b2c569c578.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_542f62c7-06fa-476c-9eeb-e7b2c569c578.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_542f62c7-06fa-476c-9eeb-e7b2c569c578.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_5a1ced93-c06a-4c9c-9f5e-d284b6d30c0f.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_5a1ced93-c06a-4c9c-9f5e-d284b6d30c0f.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_5a1ced93-c06a-4c9c-9f5e-d284b6d30c0f.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_61699eaa-c834-4d83-b9be-30a713e27207.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_61699eaa-c834-4d83-b9be-30a713e27207.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_61699eaa-c834-4d83-b9be-30a713e27207.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_68008077-9cf4-4321-8481-5e9e78957dd8.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_68008077-9cf4-4321-8481-5e9e78957dd8.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_68008077-9cf4-4321-8481-5e9e78957dd8.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_6dbb4caf-c1c8-4866-a1b3-3134a6ace26c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_6dbb4caf-c1c8-4866-a1b3-3134a6ace26c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_6dbb4caf-c1c8-4866-a1b3-3134a6ace26c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_73c46c87-6da0-4386-ba7c-d1b35fbc4e6e.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_73c46c87-6da0-4386-ba7c-d1b35fbc4e6e.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_73c46c87-6da0-4386-ba7c-d1b35fbc4e6e.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_74ca3d98-4916-4f2e-b363-b4794959b28e.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>TechnologyCommerce</SourceId>
@@ -1350,6 +1638,78 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_74ca3d98-4916-4f2e-b363-b4794959b28e.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_7dea336b-b25b-4a90-a001-40354a845677.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_7dea336b-b25b-4a90-a001-40354a845677.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_7dea336b-b25b-4a90-a001-40354a845677.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_9f79f986-c0a1-45ec-a489-0e5ebdd68f32.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_9f79f986-c0a1-45ec-a489-0e5ebdd68f32.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_9f79f986-c0a1-45ec-a489-0e5ebdd68f32.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_a69a7c06-efb7-476f-b95d-202977b0722a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_a69a7c06-efb7-476f-b95d-202977b0722a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_a69a7c06-efb7-476f-b95d-202977b0722a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_b2425ba2-a1f1-4e59-bb8d-33c3fa2823eb.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_b2425ba2-a1f1-4e59-bb8d-33c3fa2823eb.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_b2425ba2-a1f1-4e59-bb8d-33c3fa2823eb.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_b6a44d6b-0fce-400f-9545-b65a62be7d46.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>TechnologyCommerce</SourceId>
@@ -1367,6 +1727,294 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_b6a44d6b-0fce-400f-9545-b65a62be7d46.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_b6a4d17c-d791-4ac5-b82c-f5a8e5328a2a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_b6a4d17c-d791-4ac5-b82c-f5a8e5328a2a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_b6a4d17c-d791-4ac5-b82c-f5a8e5328a2a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_b87b4c8a-c878-4e53-86ca-7ecbd8cc0957.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_b87b4c8a-c878-4e53-86ca-7ecbd8cc0957.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_b87b4c8a-c878-4e53-86ca-7ecbd8cc0957.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_b9a044b3-6cfe-465c-ad3d-d75f3d377fc1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_b9a044b3-6cfe-465c-ad3d-d75f3d377fc1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_b9a044b3-6cfe-465c-ad3d-d75f3d377fc1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_bda805b8-462d-4b7d-ac03-fe95873f5074.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_bda805b8-462d-4b7d-ac03-fe95873f5074.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_bda805b8-462d-4b7d-ac03-fe95873f5074.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_bdb63b9c-32df-49c8-be5b-cd704aac5662.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_bdb63b9c-32df-49c8-be5b-cd704aac5662.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_bdb63b9c-32df-49c8-be5b-cd704aac5662.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_be73aad0-ec38-4037-8bb8-43ab45da16f7.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_be73aad0-ec38-4037-8bb8-43ab45da16f7.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_be73aad0-ec38-4037-8bb8-43ab45da16f7.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_c1b8fbb5-df90-4955-93f5-eb41dd2886bc.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_c1b8fbb5-df90-4955-93f5-eb41dd2886bc.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_c1b8fbb5-df90-4955-93f5-eb41dd2886bc.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_c8a16c5a-ab2c-4440-a288-d1d5232e75e2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_c8a16c5a-ab2c-4440-a288-d1d5232e75e2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_c8a16c5a-ab2c-4440-a288-d1d5232e75e2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_ca20f7d9-292a-4427-8d6d-fc4cb17e4272.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_ca20f7d9-292a-4427-8d6d-fc4cb17e4272.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_ca20f7d9-292a-4427-8d6d-fc4cb17e4272.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_d2a5d1ed-1e91-475b-991b-51503c8bc2be.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_d2a5d1ed-1e91-475b-991b-51503c8bc2be.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_d2a5d1ed-1e91-475b-991b-51503c8bc2be.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_e51db20f-54b1-4593-b05c-ac8b319eca65.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_e51db20f-54b1-4593-b05c-ac8b319eca65.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_e51db20f-54b1-4593-b05c-ac8b319eca65.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_ee5a22fa-9e80-48f7-9fad-3c2c7d0d020d.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_ee5a22fa-9e80-48f7-9fad-3c2c7d0d020d.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_ee5a22fa-9e80-48f7-9fad-3c2c7d0d020d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_f1a0753c-a275-4ee5-899b-11efa16a40dd.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_f1a0753c-a275-4ee5-899b-11efa16a40dd.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_f1a0753c-a275-4ee5-899b-11efa16a40dd.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_f8bcb1ec-dc31-44dd-b043-626be5c7438b.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_f8bcb1ec-dc31-44dd-b043-626be5c7438b.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_f8bcb1ec-dc31-44dd-b043-626be5c7438b.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_fbb737b4-5fab-4f24-9173-86c9e7d6cf8d.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_fbb737b4-5fab-4f24-9173-86c9e7d6cf8d.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_fbb737b4-5fab-4f24-9173-86c9e7d6cf8d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_fd9721a1-6381-47f9-a53a-6345f71928c9.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/2in1_fd9721a1-6381-47f9-a53a-6345f71928c9.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9do7m0tll</Fingerprint>
+      <Integrity>3edaWJnywc2xzrcfabfaqUktq/eNKreaRbGLsKuy6Fg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2in1_fd9721a1-6381-47f9-a53a-6345f71928c9.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\accessories.jpg'))">
       <SourceType>Package</SourceType>
@@ -1943,6 +2591,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\accessories_f4af7c96-97ab-43b3-98f5-efb5fccd870d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\bag.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/bag.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>el7is6keb4</Fingerprint>
+      <Integrity>DtWl7goR2p7f3f+Qu1j1Y8pkp/XtKplhkT5uO1tCwWA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\bag.svg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\business.jpg'))">
       <SourceType>Package</SourceType>
@@ -3077,6 +3743,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\thor850w.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\truck.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TechnologyCommerce</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TechnologyCommerce</BasePath>
+      <RelativePath>img/truck.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zcpgtm479z</Fingerprint>
+      <Integrity>nca9rqNJ+BnaOEB0vEoCsDFFmCVwqBJcc5CqYy1Nrm0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\truck.svg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ultrabook.jpg'))">
       <SourceType>Package</SourceType>
